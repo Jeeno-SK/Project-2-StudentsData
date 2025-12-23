@@ -7,7 +7,7 @@ def add_student():
     
     student = (sid, name, marks)
     students.append(student)
-    print("✅ Student Added Successfully")
+    print("Student Added Successfully")
 
 def view_students():
     if not students:
@@ -67,7 +67,7 @@ while True:
     elif choice == "5":
         delete_student()
     elif choice == "6":
-        print("👋 Exiting Program")
+        print("Exiting Program")
         break
     else:
         print("⚠ Invalid Choice")
