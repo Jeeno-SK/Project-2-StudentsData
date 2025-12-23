@@ -70,4 +70,4 @@ while True:
         print("Exiting Program")
         break
     else:
-        print("⚠ Invalid Choice")
+        print("Invalid Choice")
